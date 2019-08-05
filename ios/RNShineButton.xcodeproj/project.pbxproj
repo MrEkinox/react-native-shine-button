@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* RNShineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNShineButton.m */; };
+		C7431B47078CA9B98A563780 /* Pods_RNShineButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C74B6089B8B627391B57F50A /* Pods_RNShineButton.framework */; };
 		CE0D2C20208C63F000727B17 /* WCLShineButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0D2C1D208C63B100727B17 /* WCLShineButton.framework */; };
 		CE0D2C21208C63FD00727B17 /* WCLShineButton.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE0D2C1D208C63B100727B17 /* WCLShineButton.framework */; };
 /* End PBXBuildFile section */
@@ -45,9 +46,11 @@
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNShineButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNShineButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E1FD85057851335DC73BC5C /* Pods-RNShineButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNShineButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNShineButton/Pods-RNShineButton.debug.xcconfig"; sourceTree = "<group>"; };
+		9AC93A2922F8520200409371 /* RNShineButton-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNShineButton-Bridging-Header.h"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNShineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNShineButton.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNShineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNShineButton.m; sourceTree = "<group>"; };
 		BAC83427BCEF4D079D359241 /* Pods-RNShineButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNShineButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNShineButton/Pods-RNShineButton.release.xcconfig"; sourceTree = "<group>"; };
+		C74B6089B8B627391B57F50A /* Pods_RNShineButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNShineButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0D2C15208C63B000727B17 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE0D2C20208C63F000727B17 /* WCLShineButton.framework in Frameworks */,
+				C7431B47078CA9B98A563780 /* Pods_RNShineButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +92,7 @@
 				134814211AA4EA7D00B7C361 /* Products */,
 				CE088559200A233000641FD4 /* Frameworks */,
 				4CEB9ED3908F1DA06A1C8460 /* Pods */,
+				9AC93A2922F8520200409371 /* RNShineButton-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				CE0D2C15208C63B000727B17 /* Pods.xcodeproj */,
+				C74B6089B8B627391B57F50A /* Pods_RNShineButton.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,7 +125,6 @@
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
-				352CA989B332D62C4669DCF3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,6 +146,7 @@
 				TargetAttributes = {
 					58B511DA1A9E6C8500147676 = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -149,6 +155,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -185,21 +192,6 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		352CA989B332D62C4669DCF3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNShineButton/Pods-RNShineButton-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		83747C2E3105E8D1DC27538D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,16 +309,21 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E1FD85057851335DC73BC5C /* Pods-RNShineButton.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNShineButton;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNShineButton-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -334,16 +331,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BAC83427BCEF4D079D359241 /* Pods-RNShineButton.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNShineButton;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNShineButton-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
